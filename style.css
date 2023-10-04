@@ -1,0 +1,57 @@
+.container {
+    padding: 10px;
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #ffd4e6;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(images/bg.png);
+}
+
+img {
+    border-radius: 10px;
+}
+
+input {
+    text-align: center;
+    width: 70%;
+    height: 20px;
+    padding: 5px;
+    border: 2px solid rgb(18, 229, 18);
+}
+
+input,
+button {
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+
+.btn-hitung {
+    color: white;
+    background-color: rgb(29, 238, 29);
+    padding: 10px 20px;
+}
+
+.btn-hitung:hover {
+    cursor: pointer;
+}
+
+.btn-reset {
+    color: white;
+    background-color: red;
+    padding: 10px 35px;
+}
+
+.btn-reset:hover {
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f14e95;
+}
